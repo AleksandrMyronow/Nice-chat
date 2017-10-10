@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "NodeJS chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express",
+    "nodejs"
+  ],
+  "author": "Aleksandr Myronov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1",
+    "jquery": "^3.2.1",
+    "node": "^8.3.0",
+    "nunjucks": "^3.0.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.3"
+  }
+}

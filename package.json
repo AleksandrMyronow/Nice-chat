@@ -15,8 +15,11 @@
   "author": "Aleksandr Myronov",
   "license": "ISC",
   "dependencies": {
+    "blubird": "0.0.1-security",
+    "bluebird": "^3.5.1",
     "express": "^4.16.1",
     "jquery": "^3.2.1",
+    "mongoose": "^4.12.1",
     "node": "^8.3.0",
     "nunjucks": "^3.0.1",
     "path": "^0.12.7",

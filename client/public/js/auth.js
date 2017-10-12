@@ -11,7 +11,7 @@ function response (data) {
     return resp;
 }
 
-$( ".logout-btn" ).on('click', e => {
+$(".logout-btn").on('click', e => {
     e.preventDefault();
     $.ajax({
         url: '/logout',
@@ -34,11 +34,11 @@ $( document ).ready( () => {
         socket.emit('receiveHistory');
     });
 
-     socket.on('message', addMessage);
+    socket.on('message', addMessage);
 
-     socket.on('history', messages => {
+    socket.on('history', messages => {
         for (let message of messages) {
-           addMessage(message);
+            addMessage(message);
         }
     });
 
